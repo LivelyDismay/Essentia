@@ -216,27 +216,21 @@ RGE comes with a massive merge of housing cities towns and villages that overhau
 
 ### NPC Retextures
 
-I love the work of [Pandorable](https://www.nexusmods.com/skyrimspecialedition/users/41216925) and used [Pandorable's NPCs](https://www.nexusmods.com/skyrimspecialedition/mods/19012), [Pandorable's NPCs - Dragonborn](https://www.nexusmods.com/skyrimspecialedition/mods/30680), and [Pandorable's NPCs - Dawnguard](https://www.nexusmods.com/skyrimspecialedition/mods/24135) as my goto NPC retextures.
+We're using [Diversity](https://www.nexusmods.com/skyrimspecialedition/mods/5291) as a base, with [Jampion NPC's](https://www.nexusmods.com/skyrimspecialedition/mods/35352) overhauling most males. [Pandorable](https://www.nexusmods.com/skyrimspecialedition/users/41216925), [Pandorable's NPCs](https://www.nexusmods.com/skyrimspecialedition/mods/19012), [Pandorable's NPCs - Dragonborn](https://www.nexusmods.com/skyrimspecialedition/mods/30680), [Pandorable's NPCs - Dawnguard](https://www.nexusmods.com/skyrimspecialedition/mods/24135) and [Pan's Lethal Ladies](https://www.nexusmods.com/skyrimspecialedition/mods/36827).
 
-The Bijin lineup with [Bijin Wives](https://www.nexusmods.com/skyrimspecialedition/mods/11247), [Bijin NPCs](https://www.nexusmods.com/skyrimspecialedition/mods/11287) and [Bijin Warmaidens](https://www.nexusmods.com/skyrimspecialedition/mods/1825) fills the gaps that Pandorable's mods leave.
-
-[The Men of Winter](https://www.nexusmods.com/skyrimspecialedition/mods/10902) retextures some Men in Skyrim. I handpicked NPCs from [Kalilies NPCs](https://www.nexusmods.com/skyrimspecialedition/mods/30247). The rest is covered by [Diversity](https://www.nexusmods.com/skyrimspecialedition/mods/5291). [Ethereal Elven Overhaul](https://www.nexusmods.com/skyrim/mods/24273) is the base for all elves.
+The Bijin lineup with [Bijin Wives](https://www.nexusmods.com/skyrimspecialedition/mods/11247), and [Bijin Warmaidens](https://www.nexusmods.com/skyrimspecialedition/mods/1825) fills the gaps that Pandorable's mods leave.
 
 The priority looks like this (similar to MO2, the ones at the bottom overwrites the ones at the top):
 
-1. Ethereal Elven Overhaul
-2. Diversity
-3. Kalilies NPCs
-4. The Men of Winter
-5. Metalsabers Beautiful Orcs of Skyrim
-6. Pandorable's NPCs
-7. Pandorable's NPCs - Dragonborn
-8. Pandorable's NPCs - Dawnguard
-9. Bijin NPCs
-10. Bijin Warmaidens
-11. Bijin Wives
-12. Males of Skyrim
-13. Simple Children
+Diversity - A Character Overhaul.esp
+Jampion NPCs.esp
+Jampion NPCs - USSEP Patch.esp
+PAN_NPCs.esp
+PAN_NPCs_DG.esp
+PAN_NPCs_DB.esp
+Bijin Warmaidens.esp
+Bijin Wives.esp
+PAN_LethalLadies.esp
 
 ### Followers
 
@@ -332,13 +326,6 @@ Have fun!
   - Download [Insanity's Texture Pack](http://tesalliance.org/forums/index.php?/files/file/1098-insanitys-texture-pack-skyrim/) manually here and place it in the downloads folder then restart the installation process.
 - I play on 21:9 resolution but the UI looks weird?
   - Search `21x9` in MO2 then enable all of them.
-- I'm on a controller and the controls are weird?
-  - Disable `Better Container Controls`
-  - Reference [The Ultimate Control Scheme](https://www.nexusmods.com/skyrimspecialedition/mods/29381) for controller layout.
-  - Due to TUDM only supporting 4way dodging on gamepad we use [antimicro](https://sourceforge.net/projects/antimicro.mirror/) to enable 8way dodging.  Download it and [setup your left stick to output WASD](https://i.imgur.com/hSgdwQc.png).
-  - Alternatively... disable the `RGE - Controlmap` mod and reset your controls in the main skyrim controls menu then configure everything as you like from scratch.
-- My character is stuck dodging
-  - This happens occasionally on load but rarely in gameplay. Press 'G' to fix it.
 
 ## Tweaking Performance
 
@@ -385,7 +372,7 @@ You can just remove the MO2 folder and be done with it. SKSE and ENB files will 
 
 ## Contact
 
-While I'm always available on the [Wabbajack Discord](https://discord.gg/wabbajack), I would advise checking the [Issues](https://github.com/jdsmith2816/rge/issues) (open **and** closed ones) on GitHub first if you have any problems. The same goes for _Enhancements_ or _Feature/Mod Requests_. **DO NOT DM ME ON DISCORD. I WILL NOT PROVIDE SUPPORT FOR YOU IN DMS AND I WILL BLOCK YOU**.
+While I'm always available on the [Wabbajack Discord](https://discord.gg/wabbajack), I would advise checking the [Issues](https://github.com/SudoDoubleDog/RGE-Episode-II/issues) (open **and** closed ones) on GitHub first if you have any problems. The same goes for _Enhancements_ or _Feature/Mod Requests_. **DO NOT DM ME ON DISCORD. I WILL NOT PROVIDE SUPPORT FOR YOU IN DMS AND I WILL BLOCK YOU**.
 
 ## Contributing
 
