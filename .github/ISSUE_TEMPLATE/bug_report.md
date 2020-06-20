@@ -3,7 +3,7 @@ name: Bug report
 about: Create a bug report
 title: ''
 labels: possible bug
-assignees: jdsmith2816
+assignees: SudoDoubleDog
 ---
 
 **Describe the bug**
