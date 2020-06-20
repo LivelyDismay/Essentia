@@ -178,7 +178,7 @@ Werewolves are overhauled by [Growl](https://www.nexusmods.com/skyrimspecialedit
 
 Essentia comes with a wide variety of new quest and encounters. A few are listed below.
 
-[Hammet's Dungeons](https://www.nexusmods.com/skyrimspecialedition/mods/12186) and [Land of Vominheim](https://www.nexusmods.com/skyrimspecialedition/mods/31472) add another 60ish high quality dungeons and a landmass the size of solstheim to explore.
+[Hammet's Dungeons](https://www.nexusmods.com/skyrimspecialedition/mods/12186) add high quality dungeons.
 
 [Missives](https://www.nexusmods.com/skyrimspecialedition/mods/17576?tab=files) adds a laEssentia number of localized radiant quests found at Missive Boards of varying difficulty and with varying rewards. Missives has been extended to Solstheim.
 
