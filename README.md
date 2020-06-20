@@ -40,7 +40,7 @@
 # Preamble
 ![Essentia](extra/Essentia.png)
 
-Essentia is a modlist that I feel is the "soul" of what Skyrim Special Edition should have been, with enhanced mechanics, Roleplaying utilities, graphics, quests, dialogue, and NPC's, all while remaining as simple as possible.
+Essentia is a modlist that I feel is the "soul" of what Skyrim Special Edition should have been, with enhanced mechanics, roleplaying utilities, graphics, quests, dialogue, and NPC's, all while remaining as simple as possible.
 
 This modlist primarily revolves around [Morrowind Miscellania](https://www.nexusmods.com/skyrimspecialedition/mods/3259), Simon Magus' mods, and [Legacy of the Dragonbon](https://www.nexusmods.com/skyrimspecialedition/mods/11802).
 
