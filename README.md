@@ -18,7 +18,6 @@
 - [Updating](#updating)
 - [Noteworthy Mods](#noteworthy-mods)
   - [Combat - Melee](#combat---melee)
-  - [Combat - Archery](#combat---archery)
   - [Combat - Magic](#combat---magic)
   - [Skills, Perks and More](#skills-perks-and-more)
   - [Quest and Encounter Mods](#quest-and-encounter-mods)
