@@ -245,8 +245,7 @@ If it's not listed below then either the defaults are good enough or it's up to 
 ### SkyUI
 
 - General → Item List :
-  - Font Size : Small
-  - Category Icon Theme : CELTIC
+  - Font Size : User Preference
 - Advanced → SWF Version Checking :
   - Map Menu : Disabled
   - Favorites Menu : Disabled
@@ -258,7 +257,7 @@ If it's not listed below then either the defaults are good enough or it's up to 
 ### VioLens
 
 - Profile System → Menu Settings :
-  - Load : SERENITY
+  - Load : Essentia
 
 
 ## Character Creation
@@ -309,7 +308,7 @@ You can just remove the MO2 folder and be done with it. SKSE and ENB files will 
 ## Credits and Thanks
 
 - _YOU_ for actually reading the readme. Thanks a ton!!
-- erri120 and jdsmith2816 - README format
+- erri120, iXanza, and jdsmith2816 - README format
 - Halgari and everyone the WJ Team - Wabbajack is awesome and so are you
 - Frenchy - Thanks for the great work on the Linkle preset!
 - Johanlh for keeping the base visuals of NOISE in his NOIR modlist. 
