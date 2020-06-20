@@ -309,7 +309,7 @@ You can just remove the MO2 folder and be done with it. SKSE and ENB files will 
 ## Credits and Thanks
 
 - _YOU_ for actually reading the readme. Thanks a ton!!
-- erri120 and jdsmith - README format
+- erri120 and jdsmith2816 - README format
 - Halgari and everyone the WJ Team - Wabbajack is awesome and so are you
 - Frenchy - Thanks for the great work on the Linkle preset!
 - Johanlh for keeping the base visuals of NOISE in his NOIR modlist. 
