@@ -1,6 +1,4 @@
-![Modlist Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fbuild.wabbajack.org%2Flists%2Fstatus%2Frge%2Fbadge.json)
-
-# Relics of Hyrule - GAT Edition
+# Essentia
 - [Preamble](#preamble)
 - [Installation](#installation)
   - [Pre-Installation](#pre-installation)
@@ -24,17 +22,12 @@
   - [Combat - Magic](#combat---magic)
   - [Skills, Perks and More](#skills-perks-and-more)
   - [Quest and Encounter Mods](#quest-and-encounter-mods)
-  - [Expanded Cities Towns and Villages](#expanded-cities-towns-and-villages)
+  - [Cities Towns and Villages](#cities-towns-and-villages)
   - [NPC Retextures](#npc-retextures)
   - [Followers](#followers)
   - [Audio and Weather](#audio-and-weather)
-  - [New Equippables](#new-equippables)
 - [In-Game MCM Options](#in-game-mcm-options)
-  - [CGO](#cgo)
-  - [Follower Framework](#follower-framework)
-  - [Sky UI](#sky-ui)
 - [Character Creation](#character-creation)
-- [Getting Started in Game](#getting-started-in-game)
 - [FAQ](#faq)
 - [Tweaking Performance](#tweaking-performance)
   - [Tweaking the ENB](#tweaking-the-enb)
@@ -46,15 +39,13 @@
 - [Changelog](#changelog)
 
 # Preamble
-![rge](extra/rge.png)
+![Essentia](extra/Essentia.png)
 
-The goal of this modlist is to be something fun and different rather than
-your 100th enai-survival-rim playthrough.
-Please check your immershun at the door and embrace that c0da makes it canon!
+Essentia is a modlist that I feel is the "soul" of what Skyrim Special Edition should have been, with enhanced mechanics, Roleplaying utilities, graphics, quests, dialogue, and NPC's, all while remaining as simple as possible.
 
-This modlist primarily revolves around [Relics of Hyrule](https://www.nexusmods.com/skyrimspecialedition/mods/12244) and [Grand Admiral Thrawn](https://www.nexusmods.com/skyrimspecialedition/mods/24) with new monsters coming from a heavily modified version of [Rogue-Like Encounters](https://www.nexusmods.com/skyrimspecialedition/mods/23872).
+This modlist primarily revolves around [Morrowind Miscellania](https://www.nexusmods.com/skyrimspecialedition/mods/3259), Simon Magus' mods, and [Legacy of the Dragonbon](https://www.nexusmods.com/skyrimspecialedition/mods/11802).
 
-Combat is mostly handled by [AGO](https://www.nexusmods.com/skyrimspecialedition/mods/24296), [CGO](https://www.nexusmods.com/skyrimspecialedition/mods/33767) and [SkyRe](https://www.nexusmods.com/skyrimspecialedition/mods/17915). Enemy AI and new monsters are provided by [RLE](https://www.nexusmods.com/skyrimspecialedition/mods/23872) while both player and npc dodging come from The Ultimate Dodge Mod.
+Combat is handled by [Blade and Blunt](https://www.nexusmods.com/skyrimspecialedition/mods/34549), [Arena](https://www.nexusmods.com/skyrimspecialedition/mods/33487), and a custom [Experience](https://www.nexusmods.com/skyrimspecialedition/mods/17751) patch that rewards you for combat.
 
 ## Installation
 
@@ -82,7 +73,7 @@ To ensure that Steam does not automatically updates the game for you, head over 
 
 #### Set the Game language to English
 
-Just do it. This entire Modlist is in English and 99% of all mods you will find are also in English. I highly recommend playing the game in English and **I will not give support to people with a non-English game**.
+This entire Modlist is in English and 99% of all mods you will find are also in English. I highly recommend playing the game in English and **I will not give support to people with a non-English game**.
 
 Open the Steam Properties window, navigate to the _Language_ tab and select _English_ from the dropdown menu.
 
@@ -105,7 +96,7 @@ Start the game and exit once you're in the main menu.
 
 #### Preparations
 
-Let's get to the actual installation. Grab the latest release of RGE from [the release tab](https://github.com/jdsmith2816/rge/releases).
+Grab the latest release of Essentia from [the release tab](https://github.com/SudoDoubleDog/Essentia/releases).
 
 Download the release to a _working folder_. This folder **must not** be in a _common folders_ like your Desktop, Downloads or Program Files folder. It's best to create a Wabbajack folder near the root level of your drive like `C:/Wabbajack`.
 
@@ -160,111 +151,65 @@ Updating is like installing. You only have to make sure that you select the same
 
 ### Combat - Melee
 
-[Combat Gameplay Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33767) provides several features and fixes to combat and movement. It has procedural leaning, grip changing, mid-air combat, striking with staffs, dual-wielding two-handed weapons, 1st and 3rd person animations and more.
+[Blade and Blunt](https://www.nexusmods.com/skyrimspecialedition/mods/34549) is a streamlined combat overhaul designed to enhance Skyrim’s difficulty and encourage active resource management. Unlike other combat overhauls, it does not seek to import mechanics from other games into Skyrim. Instead, it enhances the existing mechanics of Skyrim’s combat and focuses on tightening the gameplay, to allow for more player skill and RPG-like character development.
 
-We use The Ultimate Dodge Mod for all of our fancy dodging needs as the first person dodge of CGO is nausea inducing.
+[Arena](https://www.nexusmods.com/skyrimspecialedition/mods/33487) is a difficulty overhaul designed to enhance Skyrim’s original Encounter Zones rather than replace them. It is designed to further the sense of progression in the game, by tiering dungeons according to enemy type. This encourages the players to make judgments about the difficulty of an encounter based on experience and intuition, rather than consulting a complex chart on a mod page. This approach allows Arena to provide players with a more robust sense of progression, while retaining the freedom and independence of an open world game.
 
-[Skyrim Redone](https://www.nexusmods.com/skyrimspecialedition/mods/17915) covers the rest of the combat mechanics and enemy scaling. I would definitely recommend reading at a minimum Chapter 6 of the SkyRe Guide to see how the combat mechanics affect you.
-
-A heavily modified version of [Rogue-like Encounters](https://www.nexusmods.com/skyrimspecialedition/mods/23872) handles NPC AI, some new combat mechanics and a curated set of new monsters.
-
-### Combat - Archery
-
-Can't have a setup without [AGO](https://www.nexusmods.com/skyrimspecialedition/mods/24296) and [Archery Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/13782)
 
 ### Combat - Magic
 
-Rather than using the usual [Apocalypse](https://www.nexusmods.com/skyrimspecialedition/mods/1090) and calling it a day I have instead opted to include [Forgotten Magic Redone](https://www.nexusmods.com/skyrimspecialedition/mods/12711) and [Spell Siphon](https://www.nexusmods.com/skyrimspecialedition/mods/26627)
+[Apocalypse](https://www.nexusmods.com/skyrimspecialedition/mods/1090), [Mysticism](https://www.nexusmods.com/skyrimspecialedition/mods/27839)
 
-SkyRe completely overhauls how vanilla magic works while also adding a plethora of new spells. I suggest reading the SkyRe Guide for more information.
-
-Relics of Hyrule and Grand Admiral Thrawn both include additional unique spells and powers.
 
 ### Skills, Perks and More
 
-[Wintersun](https://www.nexusmods.com/skyrimspecialedition/mods/22506) adds religion and worship.
+[Trua](https://www.nexusmods.com/skyrimspecialedition/mods/32549), a simple mod that makes shrines more immersive and adds aspects of religious worship. No longer can you just accept any random blessing from any shrine. Using a shrine now presents you with a choice to worship the deity or not. If you do, you kneel in reverence and receive the deity's blessing and the Pray power, allowing you to pray to them anywhere.
 
-Perk overhauls. For this setup I used [Skyrim Redone](https://www.nexusmods.com/skyrimspecialedition/mods/14180). This perk mod is a comprehensive overhaul for Skyrim. We are using a customized version of the perks (helmless), combat and enemy scaling modules. The SkyRe Guide should be consulted if you want more information. All 'mechanics' and 'content' stuff is still up to date.
+[Adamant](https://www.nexusmods.com/skyrimspecialedition/mods/30191) is a streamlined perk overhaul designed to enhance every aspect of your Skyrim experience. It thoroughly overhauls the game’s eighteen skill trees in order to provide the player with compelling choices and smooth progression from start to finish. While Adamant does increase the total number of perks in the game, it avoids bloat, sprawl, and power creep by balancing its selection of perks around Vanilla perk gains. Like many modern perk overhauls, it provides support for popular gameplay styles that are underutilized in the Vanilla game, such as shouts, staves, and unarmed combat.
 
-If you are are into Spellblade, Arcane Archery, or just magery in general then [Spell Siphon](https://www.nexusmods.com/skyrimspecialedition/mods/26627) is probably the best thing you've never experienced before. Be sure to watch the tutorial video... it's worth it.
+[Skyrim Uncapper - Adamant Arena](https://www.nexusmods.com/skyrimspecialedition/mods/35366) Uncapper Preset. Balanced progression across builds, freedom to pursue noncombat skills, dynamic 1-50 advancement experience. Perk rate expects Adamant. Engaging high-level growth. 
 
-Werewolves are overhauled by [Growl](https://www.nexusmods.com/skyrimspecialedition/mods/31245) while [Curse of the Vampire](https://www.nexusmods.com/skyrimspecialedition/mods/10086) takes care of our bloody friends of the night.
+Werewolves are overhauled by [Growl](https://www.nexusmods.com/skyrimspecialedition/mods/31245), [Sacrosanct](https://www.nexusmods.com/skyrimspecialedition/mods/3928) for vampires.
 
 [Aetherious](https://www.nexusmods.com/skyrimspecialedition/mods/26686) is a streamlined race overhaul designed to make races more meaningful without making them more restrictive.
-
-[Shout](https://www.nexusmods.com/skyrimspecialedition/mods/12149) improves upon all shouts in Skyrim in a fair and balanced way by cutting down the cooldown timer effects, thus allowing the player to use a host of shouts in innovative, devastating combinations.
 
 [Mundus](https://www.nexusmods.com/skyrimspecialedition/mods/33411) is a streamlined Standing Stone overhaul designed to ensure that every stone fills a niche and offers competitive bonuses to different playstyles.
 
 ### Quest and Encounter Mods
 
-RGE comes with a wide variety of new quest and encounters. A few are listed below.
-
-[Darkend](https://www.nexusmods.com/skyrimspecialedition/mods/10423) allows you to travel to the new island of Pharos, explore detailed environments, fight new enemies and discover an Ancient set of weapons of incredible power. There is no quest or hand holding and is heavily inspired by the Soulsborne games.
+Essentia comes with a wide variety of new quest and encounters. A few are listed below.
 
 [Hammet's Dungeons](https://www.nexusmods.com/skyrimspecialedition/mods/12186) and [Land of Vominheim](https://www.nexusmods.com/skyrimspecialedition/mods/31472) add another 60ish high quality dungeons and a landmass the size of solstheim to explore.
 
-[Missives](https://www.nexusmods.com/skyrimspecialedition/mods/17576?tab=files) adds a large number of localized radiant quests found at Missive Boards of varying difficulty and with varying rewards. Missives has been extended to Solstheim.
+[Missives](https://www.nexusmods.com/skyrimspecialedition/mods/17576?tab=files) adds a laEssentia number of localized radiant quests found at Missive Boards of varying difficulty and with varying rewards. Missives has been extended to Solstheim.
 
-[Skyrim Sewers](https://www.nexusmods.com/skyrimspecialedition/mods/9320) adds an accessible sewer system to the towns of Solitude, Whiterun, Windhelm and Markarth and also small sewage tunnels to Fort Sungard and Greenwall. Don't let the name fool you as this is by far some of the best made dungeon content available for Skyrim.
+[The Wheels of Lull](https://www.nexusmods.com/skyrimspecialedition/mods/748) is an enormous, sprawling expansion sized quest mod that serves not just only as a sequel to Sotha Sil Expanded, but ties together almost all my previous Skyrim quest mods, including Aethernautics, Mzark, and even Brhuce Hammar.  In it, the player is recruited into the ranks of a rejected Chronographer platoon, and shunted off to the Clockwork City outpost of Lull-Mor, a precariously perched outpost at the edge of Sotha Sil's domain. Much like Sotha Sil Expanded, the mod gives a focus on puzzle and problem solving. Featuring five enormous dungeons, with mini-bosses, unique treasures, and plenty of puzzles, you'll have your work cut out for you. The player will find themselves exploring strange new landscapes, from the deepest oceans, to underground forests, to giant foundries, and going up against strange new monsters, while wielding several new weapons, from the Harquebuses of Chronographers, to the great Unwinder of Goveri. They will find themselves dressing themselves in Chronographer robes. WoL also serves as introduction to the stranger side of TES lore, diving into the strange and ridiculous world of TES metaphysics, and will teach players about the Towers, Landfall, and the eponymous Wheels of Lull.
 
-[Vigilant](https://www.nexusmods.com/skyrimspecialedition/mods/11849), [Glenmoril](https://www.nexusmods.com/skyrimspecialedition/mods/32998) and [Unslaad](https://www.nexusmods.com/skyrimspecialedition/mods/11789) are an interconnected set of super mods that add a dark and awesome storyline with a ton of Soulsborne inspired content. Glenmoril is still in development but it's worth adding for the current content. Vigilant and Glenmoril creatures and items have been integrated into the rest of the game.
+[The Tale of Tsatampra Xiros](https://www.nexusmods.com/skyrimspecialedition/mods/36707) Battle your way through the fragmented memories of Hermaeus Mora's rogue acolyte - Tsatampra Xiros. The pages of his chronicle are populated with distorted visions of himself, his fellow acolytes, and the terrifying creatures he consorted with. And somewhere, nestled in the heart of the Tale, Xiros himself awaits you...
 
-### Expanded Cities Towns and Villages
+[Krovaxis](https://www.nexusmods.com/skyrimspecialedition/mods/34750) The weak and the winnowed tremble! Molag Bal has visited a host of new powers upon his temple. Long dormant beneath the ice, these functions of Krovaxis once again present themselves to a worthy steward...
 
-RGE comes with a massive merge of housing cities towns and villages that overhaul all of the population centers. The list is literally too long to go into in the readme so feel free to check the mod list. There are at least four new player houses per hold ranging from small shacks to massive build your own settlements. The keys for these houses are all purchaseable, found at the end of quests or on enemy corpses. In addition to all of the housing every village town and city has been completely overhauled via a variety of mods.
+[Legacy of the Dragonborn](https://www.nexusmods.com/skyrimspecialedition/mods/11802) is one of the most acclaimed expansion sized mods for Skyrim which offers without equal; the most versatile, most expansive and most extensive display space for artifacts the Elder Scrolls series has ever seen! On top of offering a Museum for display of nearly 3500 potential unique items and sets (including supported mods), this mod offers an entirely new guild faction you start from the ground up, “The Explorer’s Society”. It offers dozens of new quest, a handful of major quest arcs and numerous useful and unique mechanics all centered around your home at the Dragonborn Gallery in Solitude.
+
+### Cities Towns and Villages
+
+Jk's Skyrim, Dawn of Skyrim, Expanded Towns and Cities, ETaC Jk's Skyrim replacer
 
 ### NPC Retextures
 
-We're using [Diversity](https://www.nexusmods.com/skyrimspecialedition/mods/5291) as a base, with [Jampion NPC's](https://www.nexusmods.com/skyrimspecialedition/mods/35352) overhauling most males. [Pandorable](https://www.nexusmods.com/skyrimspecialedition/users/41216925), [Pandorable's NPCs](https://www.nexusmods.com/skyrimspecialedition/mods/19012), [Pandorable's NPCs - Dragonborn](https://www.nexusmods.com/skyrimspecialedition/mods/30680), [Pandorable's NPCs - Dawnguard](https://www.nexusmods.com/skyrimspecialedition/mods/24135) and [Pan's Lethal Ladies](https://www.nexusmods.com/skyrimspecialedition/mods/36827).
-
-The Bijin lineup with [Bijin Wives](https://www.nexusmods.com/skyrimspecialedition/mods/11247), and [Bijin Warmaidens](https://www.nexusmods.com/skyrimspecialedition/mods/1825) fills the gaps that Pandorable's mods leave.
-
-The priority looks like this (similar to MO2, the ones at the bottom overwrites the ones at the top):
-
-Diversity - A Character Overhaul.esp
-Jampion NPCs.esp
-Jampion NPCs - USSEP Patch.esp
-PAN_NPCs.esp
-PAN_NPCs_DG.esp
-PAN_NPCs_DB.esp
-Bijin Warmaidens.esp
-Bijin Wives.esp
-PAN_LethalLadies.esp
+Simple yet effective, Total Character Makeover with additional textures for beast races, and True Faces of Skyrim. This is a plugin-less setup, and it still looks fantastic.
 
 ### Followers
-
-[Daanik the Returned](https://www.nexusmods.com/skyrimspecialedition/mods/21728/) is a powerful lich boss that you can summon to fight for you assuming that you can defeat him in combat.
 
 [Inigo](https://www.nexusmods.com/skyrimspecialedition/mods/1461) is a fully voiced khajiit adventuring companion with over 7000 lines of unique dialogue - much of it about you. He'll level alongside you and avoid most traps. If you're sneaking he won't chatter and he'll whisper if you talk to him. He can run out of arrows. He's highly skilled in archery, one-handed, and sneak.
 
 [Lucien](https://www.nexusmods.com/skyrimspecialedition/mods/20035) is a fully voiced Imperial follower with around 3000 lines of immersive, lore-friendly dialogue. Though he arrives in Skyrim as a cowardly scholar, he'll gradually gain strength and confidence by your side until he grows into a hero in his own right.
 
-[Song of the Green - Auri Follower](https://www.nexusmods.com/skyrimspecialedition/mods/11278) is a fully voiced follower and quest mod, which centers around Bosmer culture and tradition. Auri, a traditionalist Wood Elf archer, will follow you, do your bidding, and offer occasional snarky commentary about your surroundings and actions.
-
-[The Pale Lord](https://www.nexusmods.com/skyrimspecialedition/mods/21003) is a uniquely designed vampire follower with both a custom appearance featuring claws and a black textured outfit as well as scripted powers which include the ability to transform into a swarm of bats as well as being able to assume a monstrous War-form.
-
-In addition to the above custom followers all of the vanilla followers have been overhauled by [Special Edition Followers](https://www.nexusmods.com/skyrimspecialedition/mods/7622) to fill unique roles as combat companions.
 
 ### Audio and Weather
 
-[Audio Overhaul Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/12466) and [Immersive Sounds Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/523) offer an amazing base for skyrim's ambiance and foley.
+We're using Cathedral Weathers, True Storms, and a few addons for Cathedral to replace some of its weathers with Obsidian variants. The ENB included with the install is [Silent Horizons](https://www.nexusmods.com/skyrimspecialedition/mods/21543), that I have customized to my taste and performance needs, as well as many extra custom LUTs included.
 
-[Soulmancer Music Merge](https://www.nexusmods.com/skyrimspecialedition/mods/22551) thoughtfully merges soundtracks of Celtic Music, Extra Music, Musical Lore, Hun Lovaas, Still, Melodies of Civilization, Vindsvept, Northern & Southern Diaries, Fanmade Nordic Music, Dreams and Nightmares, Elder Songs, Dawn of Hope, and JDR. Additional tracks from Enderal, Two Step's From Hell, Icewind Dale and Baldur's Gate series!
-
-The full Enigma series minus Disciple of Molag Bal from [Satafinix](https://www.nexusmods.com/skyrimspecialedition/users/21706239?tab=user+files) is used to overhaul dragonic and daedric voices. While other odds and ends update draugr voices, skeleton sounds and the like.
-
-[Picturesque](https://www.nexusmods.com/skyrimspecialedition/mods/32364) is a graphical overhaul consisting of a brand new weathers mod along with an ENB preset as companion with a heavy focus on consistency and as few flaws as possible such as matching grass to distant terrain, no horizon seams, decently looking tree LOD. Night-eye, fade to black and other imagespace modifiers are also supported
-
-### New Equippables
-
-[Skyrim Weapon Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/32500) integrates over 100 high quality and balanced weapon variants into the vanilla game through crafting and leveled lists.
-
-[Cloaks of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/6369), [Divine Cloaks](https://www.nexusmods.com/skyrimspecialedition/mods/9304), [Daedric Cloaks](https://www.nexusmods.com/skyrimspecialedition/mods/9530) and [Artesian Cloaks of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/17416) provide pretty physics enabled capes and integrates them into the world.
-
-[Warmonger Armory](https://www.nexusmods.com/skyrimspecialedition/mods/17809) aims to add immersion to your Skyrim experience adding new lore friendly Armors, Weapons and Clothes for both Vanilla Game and DLCs. All the added content is inspired from the classic Elder Scrolls Archetypes and is made with compatibility in mind.
-
-[Common Clothes and Armors](https://www.nexusmods.com/skyrimspecialedition/mods/21305) is a combined and continued version of Common Clothes and Brigandage. It features 51 new armors and 80 new clothes, created by Franklin Zunge. The clothes are worn by the common people of Skyrim: Farmers, merchants, miners, patrons, workers and some of the wealthier citizens. They can also be bought at Radiant Raiment. The armors are worn by bandits. Since all new armors cover the whole body, half-naked bandits chilling in the cold climate of Skyrim are almost completely eliminated. The armors can be improved at a workbench, but they cannot be crafted or bought.
 
 ## In-Game MCM Options
 
@@ -272,60 +217,62 @@ Everything not listed below is already configured for you. Feel free to peruse t
 
 **Wait until no new messages appear in the top left corner!**
 
-I recommend starting by configuring ALL of your MCM menus EXCEPT for Skyrim Unbound. Once this is done open the console by pressing the grave ( ` ) key and typing 'save configured' Assuming you haven't made load order changes that break your saves then the next time you start a new character you can, from the main menu, open the console and type 'load configured' to start a new character without having to do all of your MCM choices again...
+After starting a new game, you will spawn in the LAL cell. You’ll find a key to the shelves on a table, with basic loadout necessities. Wait until the text in the top left is finished loading all of your mods, then press Esc and go to your MCM settings.
 
-If it's not listed below then either the defaults are good enough (TUDM stamina costs for instance) or it's totally up to user preference. Work through all of the menus mentioned below while additionally customizing anything else as you see fit. Once that's done open up the 'Skyrim Unbound' MCM menu to choose your starting options...
+If it's not listed below then either the defaults are good enough or it's up to user preference. Work through all of the menus mentioned below while additionally customizing anything else as you see fit.
 
-In order to experience all of the GAT + Hyrule content I highly recommend that you start as a dragonborn character.
+### A Matter of Time
 
-Either click 'Begin Your Adventure' or close the MCM menus and hit the 'enter' key to begin character creation.
-
-### CGO
-
-- Leaning
-  - Lean Multiplier (1st Person) 0.25 (Any value is fine)
-  - Lean Multiplier (3rd Person) 0.25 (Any value is fine)
+- Presets :
+  - Load user settings
 
 ### Follower Framework
 
-- System
-  - Load from File
-  - Hotkeyed Abilities
-    - Customize as you wish
+- System → Save/Load Configuration :
+  - Load from File : Click
+  
+### LOTD Settings
 
-### Sky UI
+- LOTD Settings → General → Shippment Crate Locations :
+  - Carriages : Enabled
+  - Inns : Enabled
+  - Player Houses : Enabled
+  
+### Quick Light
 
-- Advanced
-  - SWF Version Checking
-  - Map Menu [ ]
+- Quick Light → Brightness :
+  - Brightness - Bright
+
+### SkyUI
+
+- General → Item List :
+  - Font Size : Small
+  - Category Icon Theme : CELTIC
+- Advanced → SWF Version Checking :
+  - Map Menu : Disabled
+  - Favorites Menu : Disabled
+  - Inventory Menu : Disabled
+  - Barter Menu : Disabled
+  - Container Menu : Disabled
+  - Crafting Menu : Disabled
+
+### VioLens
+
+- Profile System → Menu Settings :
+  - Load : SERENITY
 
 
 ## Character Creation
 
-Using [RaceMenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080) you can create a stunning looking character.
-
-RGE currently ships with a preset for the Nord Female that makes your character resemble Linkle from Hyrule Warriors.
-
-## Getting Started in Game
-
-The Relics of Hyrule content is very much explore and figure it out. There are no quests or markers to lead you on your way. Keep an eye and an ear open for glowing fairies and tinkling noises as those mark most locations of Hyrule content. You can find an initial piece of content in Riverwood near the bridge that Faendal paths across to chop wood.
-
-The GAT content is woven into the main game. The imperial forces will be contesting you for everything including much of the major Hyrule content. At some point you will want to join the Chiss Resistance. While there are many ways to do this an easy one is to head towards Bleak Falls Barrow and stop at Riverwood's Folly to chat with the resistance members there about joining. I advise against actually doing anything with BFB until you've joined the resistance and they ask you to do so.
-
-You may want to keep a companion or two with you at all times as GAT is balanced around having a squad. All vanilla followers have been significantly upgraded via 'Special Edition Followers'. Additionally I've included a funny old wizard 'Benjamin Doon', a nordic battle maid 'Danika', a vampire lord 'The Pale Lord', Auri and elven archer, an awesome lich 'Daanik', our favorite blue cat Inigo and last but not least Lucien. GAT itself comes with around thirty followers that you can recruit into your squad as well.
-
-As configured by default your sneak key is ctrl, your dodge key is space and your shift key is jump. If you want to change this then go into the MAIN settings then controls then set the SNEAK key to whatever you want your DODGE to be. Then setup your jump to whatever it should be. Finally go into the MCM section for 'The Ultimate Dodge Mod' and set the sneak key to whatever you want to actually sneak with.
-
-Spell Siphon is included in this modlist. It's an amazing way to play any mage/spellsword/arcane archer type character but it takes a bit of getting used to. If you want to make use of this feature then read the 'Spell Siphon' book in your inventory to kick things off. The payoff is huuuuuge.
-
-Have fun!
+Using [RaceMenu](https://www.nexusmods.com/skyrimspecialedition/mods/19080) you can create a stunning looking character. I have included A LOT of new eyes. Have fun!
 
 ## FAQ
 
-- ITSPS_Full failed to download
-  - Download [Insanity's Texture Pack](http://tesalliance.org/forums/index.php?/files/file/1098-insanitys-texture-pack-skyrim/) manually here and place it in the downloads folder then restart the installation process.
-- I play on 21:9 resolution but the UI looks weird?
-  - Search `21x9` in MO2 then enable all of them.
+- You have Nemesis, why not use CGO? 
+   - Because I don't want to.
+
+- Will you help me if I add [X] mod?
+   - No. The only mods that I will give assistance adding are widescreen fixes. If you want to build on this list, feel free, but do not ask how to do so in my support channel. Use general-se-discussion.
 
 ## Tweaking Performance
 
@@ -363,16 +310,15 @@ You can just remove the MO2 folder and be done with it. SKSE and ENB files will 
 ## Credits and Thanks
 
 - _YOU_ for actually reading the readme. Thanks a ton!!
-- The Phoenix Flavor by Phoenix - General ideas and awesomesauce derived therefrom
-- Lotus by erri120 - README format and NPC visuals
-- Total - Being a really helpful guy.
+- erri120 - README format and NPC visuals
 - Halgari and everyone the WJ Team - Wabbajack is awesome and so are you
 - Frenchy - Thanks for the great work on the Linkle preset!
-- Forgotten God and Frenchy - Thanks for the great work on the logo and main menu replacer!!
+- Johanlh for keeping the base visuals of NOISE in his NOIR modlist. 
+- My friends here at Wabbajack, for being the best friends I've ever had.
 
 ## Contact
 
-While I'm always available on the [Wabbajack Discord](https://discord.gg/wabbajack), I would advise checking the [Issues](https://github.com/SudoDoubleDog/RGE-Episode-II/issues) (open **and** closed ones) on GitHub first if you have any problems. The same goes for _Enhancements_ or _Feature/Mod Requests_. **DO NOT DM ME ON DISCORD. I WILL NOT PROVIDE SUPPORT FOR YOU IN DMS AND I WILL BLOCK YOU**.
+While I'm always available on the [Wabbajack Discord](https://discord.gg/wabbajack), I would advise checking the [Issues](https://github.com/SudoDoubleDog/Essentia/issues) (open **and** closed ones) on GitHub first if you have any problems. The same goes for _Enhancements_ or _Feature/Mod Requests_. **DO NOT DM ME ON DISCORD. I WILL NOT PROVIDE SUPPORT FOR YOU IN DMS AND I WILL BLOCK YOU**.
 
 ## Contributing
 
