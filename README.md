@@ -233,6 +233,9 @@ If it's not listed below then either the defaults are good enough or it's up to 
 - System → Save/Load Configuration :
   - Load from File : Click
   
+### Lanterns of Skyrim
+- Disable Lanterns in villages
+  
 ### LOTD Settings
 
 - LOTD Settings → General → Shippment Crate Locations :
