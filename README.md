@@ -106,7 +106,7 @@ Grab the latest release of Wabbajack from [here](https://github.com/wabbajack-to
 
 #### Downloading and Installing
 
-The download and installation process can take a very long time depending on your system specs. Wabbajack will calculate the amount of threads it will use at the start of the installation. To have the highest amount of threads and thus the fastest speed, it is advised to have the working folder on an SSD.
+The download and installation process can take a very long time depending on your system specs. Wabbajack will calculate the amount of threads it will use at the start of the installation. To have the highest amount of threads and thus the fastest speed, it is advised to have the working folder on an SSD. This modlist requires that you have at least **140 GB** of free space to install successfully.
 
 1. Open Wabbajack
 2. Load the Modlist from Disk
