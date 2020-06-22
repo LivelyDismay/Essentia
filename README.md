@@ -37,6 +37,10 @@
 - [Contributing](#contributing)
 - [Changelog](#changelog)
 
+
+# Notes for Testers: [Plzread](https://github.com/SudoDoubleDog/Essentia/blob/master/notesfortesters.md)
+
+
 # Preamble
 ![Essentia](extra/Essentia.png)
 
